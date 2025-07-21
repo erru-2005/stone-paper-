@@ -49,13 +49,13 @@ let calc = (userch)=>{
     if(ch==1)
         {
             us++;
-            msg.innerText=`You own,yours ${userch} beats ${compch}`;
+            msg.innerText=`You own,your ${userch} beats ${compch}`;
             score1.innerText=us;
             msg.style.backgroundColor="green";
         }
         else{
             cs++;
-            msg.innerText=`computer own,${compch} beats yours ${userch}`;
+            msg.innerText=`Computer own,${compch} beats your ${userch}`;
             score2.innerText=cs;
             msg.style.backgroundColor="red";
         }
