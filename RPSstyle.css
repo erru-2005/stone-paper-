@@ -40,7 +40,9 @@ h1{
     font-size:1.50rem
 }
 .msg {
-   
+   background-color: rgba(40, 40, 40, 0.95);
+    /* optional: also leave a gradient if nothing overrides it */
+    background: linear-gradient(145deg, rgba(40, 40, 40, 0.95), rgba(20, 20, 20, 0.95));
     display: inline-block;
     color: #fdf5e6; /* beige-ish but a bit brighter */
     padding: 0.5rem 0.75rem;
